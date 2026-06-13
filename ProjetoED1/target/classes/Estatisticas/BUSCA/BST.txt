@@ -1,0 +1,6 @@
+Nome do tipo de busca: BST
+Tamanho do conjunto de dados: 100000
+Tempo de execução (ms): 0,023300
+Número de comparações: 22
+Altura da BST: 41
+Tamanho da árvore (nós): 98119

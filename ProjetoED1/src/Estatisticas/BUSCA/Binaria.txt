@@ -1,0 +1,4 @@
+Nome do tipo de busca: Binaria
+Tamanho do conjunto de dados: 100000
+Tempo de execução (ms): 0,001100
+Número de comparações: 17

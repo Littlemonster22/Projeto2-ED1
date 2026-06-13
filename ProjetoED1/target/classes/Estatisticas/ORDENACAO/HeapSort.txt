@@ -1,0 +1,5 @@
+Nome do algoritmo: HeapSort
+Tamanho do conjunto de dados: 100000
+Tempo de ordenacao (ms): 100
+Numero de swaps: 99999
+

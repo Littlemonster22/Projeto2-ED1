@@ -1,0 +1,4 @@
+Nome do algoritmo: QuickSort
+Tamanho do conjunto de dados: 100000
+Tempo de ordenacao (ms): 1585
+Numero de swaps: 2221816

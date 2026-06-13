@@ -1,0 +1,6 @@
+Nome do tipo de busca: AVL
+Tamanho do conjunto de dados: 100000
+Tempo de execução (ms): 0,021400
+Número de comparações: 16
+Altura da AVL: 20
+Tamanho da árvore (nós): 98119

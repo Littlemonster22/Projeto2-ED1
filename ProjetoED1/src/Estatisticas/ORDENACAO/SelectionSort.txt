@@ -1,0 +1,5 @@
+Nome do algoritmo: SelectionSort
+Tamanho do conjunto de dados: 100000
+Tempo de ordenacao (ms): 87198
+Numero de swaps: 99995
+

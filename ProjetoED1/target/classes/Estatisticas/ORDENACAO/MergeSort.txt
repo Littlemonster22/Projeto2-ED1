@@ -1,0 +1,4 @@
+Nome do algoritmo: MergeSort
+Tamanho do conjunto de dados: 100000
+Tempo de ordenacao (ms): 117
+Numero de swaps: 1668928

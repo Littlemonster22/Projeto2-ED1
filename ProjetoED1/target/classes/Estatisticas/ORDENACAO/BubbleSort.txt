@@ -1,0 +1,4 @@
+Nome do algoritmo: BubbleSort
+Tamanho do conjunto de dados: 100000
+Tempo de ordenacao (ms): 161780
+Numero de swaps: 2127173907

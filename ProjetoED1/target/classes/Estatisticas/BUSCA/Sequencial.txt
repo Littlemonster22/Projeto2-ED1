@@ -1,0 +1,4 @@
+Nome do tipo de busca: Sequencial
+Tamanho do conjunto de dados: 100000
+Tempo de execução (ms): 15,250800
+Número de comparações: 99999
