@@ -18,8 +18,6 @@ public class Filme {
     private String poster_path;
     private String genres;
 
-    public Filme() {}
-
     public Filme(int id, String title, String vote_average, String vote_count, String status,
                  String release_date, String revenue, String runtime, String adult, String budget,
                  String imdb_id, String original_language, String original_title, String popularity,
