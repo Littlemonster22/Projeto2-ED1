@@ -4,6 +4,7 @@ import methods.Filme;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Binaria extends ModeloBuscar {
 
@@ -33,7 +34,7 @@ public class Binaria extends ModeloBuscar {
             if (filme != null) filmesValidos[index++] = filme;
         }
 
-        mergeSort(filmesValidos, 0, filmesValidos.length - 1);
+        Arrays.sort(filmesValidos);
 
         long inicio = System.nanoTime();
         int comparacoes = 0;
@@ -64,38 +65,6 @@ public class Binaria extends ModeloBuscar {
         setTamanhoDoConjuntoDeDados(filmesValidos.length);
 
         return encontrado;
-    }
-
-    private void mergeSort(Filme[] filmes, int esq, int dir) {
-        if (esq < dir) {
-            int meio = (esq + dir) / 2;
-            mergeSort(filmes, esq, meio);
-            mergeSort(filmes, meio + 1, dir);
-            merge(filmes, esq, meio, dir);
-        }
-    }
-
-    private void merge(Filme[] filmes, int esq, int meio, int dir) {
-        int n1 = meio - esq + 1;
-        int n2 = dir - meio;
-
-        Filme[] esquerda = new Filme[n1];
-        Filme[] direita = new Filme[n2];
-
-        for (int i = 0; i < n1; i++) esquerda[i] = filmes[esq + i];
-        for (int j = 0; j < n2; j++) direita[j] = filmes[meio + 1 + j];
-
-        int i = 0, j = 0, k = esq;
-        while (i < n1 && j < n2) {
-            if (esquerda[i].getId() <= direita[j].getId()) {
-                filmes[k++] = esquerda[i++];
-            } else {
-                filmes[k++] = direita[j++];
-            }
-        }
-
-        while (i < n1) filmes[k++] = esquerda[i++];
-        while (j < n2) filmes[k++] = direita[j++];
     }
 
     public void exibirEstatisticas() {
